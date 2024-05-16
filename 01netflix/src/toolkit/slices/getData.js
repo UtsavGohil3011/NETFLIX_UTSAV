@@ -12,6 +12,11 @@ export const fetchMovie = createAsyncThunk("product/fetch", async () => {
   return data;
 });
 
+
+
+
+
+
 // Slice for managing product state
 const getData = createSlice({
   name: "movies",
